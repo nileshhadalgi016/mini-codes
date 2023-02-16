@@ -34,7 +34,7 @@ Folders:
 
 
 Folders:
-- [alaram%20clock](./alaram clock)
+- [alaram%20clock](./alaram%20clock)
 - [factorial-program](./factorial-program)
 - [instagram-profile-downloader](./instagram-profile-downloader)
 - [password-generator](./password-generator)
