@@ -1,26 +1,11 @@
-# My Project
+# mini-codes
+## Mini-codes codes just for fun and practice logics !
 
-Folders:
-- [alaram-clock](./alaram clock)
+### startFolders:
+- [alaram clock](./alaram%20clock)
 - [factorial-program](./factorial-program)
 - [instagram-profile-downloader](./instagram-profile-downloader)
 - [password-generator](./password-generator)
 
-
-
-
-Folders:
-- [alaram%20clock](./alaram clock)
-- [factorial-program](./factorial-program)
-- [instagram-profile-downloader](./instagram-profile-downloader)
-- [password-generator](./password-generator)
-
-
-
-
-Folders:
-- [alaram%20clock](./alaram clock)
-- [factorial-program](./factorial-program)
-- [instagram-profile-downloader](./instagram-profile-downloader)
-- [password-generator](./password-generator)
+### end
 
