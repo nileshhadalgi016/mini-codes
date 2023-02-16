@@ -14,8 +14,14 @@ folder_names = sorted([f for f in os.listdir(current_dir)
 new_section = "\nFolders:\n"
 for folder_name in folder_names:
     folder_path = os.path.join(".", folder_name)
-    folder_link = f"[{folder_name}]({folder_path})"
-    new_section += f"- {folder_link}\n"
+    main_py_path = os.path.join(folder_path, "main.py")
+    if os.path.isfile(main_py_path):
+        main_py_link = f"[main.py]({main_py_path})"
+        folder_link = f"[{folder_name}]({folder_path})"
+        new_section += f"- {folder_link}: {main_py_link}\n"
+    else:
+        folder_link = f"[{folder_name}]({folder_path})"
+        new_section += f"- {folder_link}\n"
 new_section += "\n"
 
 # Insert the new section into the README.md file
