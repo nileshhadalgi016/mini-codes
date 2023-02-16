@@ -5,6 +5,7 @@ with open("README.md", "r") as readme_file:
     readme_content = readme_file.read()
     print(f"README content:\n{readme_content}\n")
 
+
 # Get the names of folders in the current directory and sort them alphabetically
 current_dir = os.getcwd()
 folder_names = sorted([f for f in os.listdir(current_dir)
