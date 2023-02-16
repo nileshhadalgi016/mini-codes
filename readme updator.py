@@ -1,4 +1,5 @@
 import os
+from urllib.parse import quote
 
 # Read the content of README.md file
 with open("README.md", "r") as readme_file:
@@ -7,31 +8,16 @@ with open("README.md", "r") as readme_file:
 
 # Get the names of folders in the current directory and sort them alphabetically
 current_dir = os.getcwd()
-folder_names = sorted([f for f in os.listdir(current_dir)
-                       if os.path.isdir(os.path.join(current_dir, f)) and not f.startswith(".")])
+folder_names = sorted([f for f in os.listdir(current_dir) if os.path.isdir(os.path.join(current_dir, f)) and not f.startswith('.')])
 
-# Create the new section for folder links
-new_section = "\nFolders:\n"
-for folder_name in folder_names:
-    folder_path = os.path.join(".", folder_name)
-    folder_link = f"[{folder_name.replace(' ', '%20')}]({folder_path})"
-    new_section += f"- {folder_link}\n"
-new_section += "\n"
-
-# Insert the new section into the README.md file
-start_marker = "### Start Here"
-end_marker = "### End Here"
-start_index = readme_content.find(start_marker)
-if start_index != -1:
-    start_index += len(start_marker) + 1
-    end_index = readme_content.index(end_marker) - 1
-    new_readme_content = readme_content[:start_index] + new_section + readme_content[end_index:]
-else:
-    new_readme_content = readme_content + "\n\n" + new_section
-
-# Write the updated content to README.md file
+# Add folder links to README.md
 with open("README.md", "w") as readme_file:
-    readme_file.write(new_readme_content)
+    readme_file.write("# My Project\n\n")
+    readme_file.write("Folders:\n")
+    for folder_name in folder_names:
+        folder_link = f"[{folder_name}](./{quote(folder_name)})"
+        readme_file.write(f"- {folder_link}\n")
+    readme_file.write("\n")
 
 # Confirm that changes were made to README.md
 with open("README.md", "r") as readme_file:
