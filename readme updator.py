@@ -16,7 +16,8 @@ with open("README.md", "r+") as readme_file:
     readme_file.write(readme_content[:start_index])
     readme_file.write("Folders:\n")
     for folder_name in folder_names:
-        folder_link = f"[{folder_name}](./{quote(folder_name)})"
+        folder_name_title = folder_name.title()
+        folder_link = f"[{folder_name_title}](./{quote(folder_name)})"
         readme_file.write(f"- {folder_link}\n")
     readme_file.write("\n")
     readme_file.write(readme_content[end_index:])

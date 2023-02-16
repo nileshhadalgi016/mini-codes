@@ -2,10 +2,10 @@
 ## Mini-codes codes just for fun and practice logics !
 
 ### startFolders:
-- [alaram clock](./alaram%20clock)
-- [factorial-program](./factorial-program)
-- [instagram-profile-downloader](./instagram-profile-downloader)
-- [password-generator](./password-generator)
+- [Alaram Clock](./alaram%20clock)
+- [Factorial Program](./factorial%20program)
+- [Instagram Profile Downloader](./instagram%20profile%20downloader)
+- [Password Generator](./password%20generator)
 
 ### end
 
