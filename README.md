@@ -8,6 +8,7 @@ Folders:
 - [Factorial Program](./factorial%20program)
 - [Instagram Profile Downloader](./instagram%20profile%20downloader)
 - [Password Generator](./password%20generator)
+- [Search Engine](./search%20engine)
 - [Simple Calculator](./simple%20calculator)
 
 ### endnd
