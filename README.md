@@ -8,6 +8,7 @@ Folders:
 - [Factorial Program](./factorial%20program)
 - [Image Upscale Or Downscale](./image%20upscale%20or%20downscale)
 - [Instagram Profile Downloader](./instagram%20profile%20downloader)
+- [Instagram Reel Downloader ](./instagram%20reel%20downloader%20)
 - [Password Generator](./password%20generator)
 - [Search Engine](./search%20engine)
 - [Simple Calculator](./simple%20calculator)
