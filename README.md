@@ -9,6 +9,8 @@ Languages:
 
 ## Python
 <a name='Python'></a>
+- [YouTube Audio Downloader](./Python/YouTube%20Audio%20Downloader)
+- [YouTube Video Downloader](./Python/YouTube%20Video%20Downloader)
 - [alarm clock](./Python/alarm%20clock)
 - [factorial program](./Python/factorial%20program)
 - [image upscale or downscale](./Python/image%20upscale%20or%20downscale)
