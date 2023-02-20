@@ -5,7 +5,7 @@
 
 Languages:
 - [Python](#Python)
-- [Web Development](#Web Development)
+- [Web Development](#Web%20Development)
 
 ## Python
 <a name='Python'></a>
@@ -19,7 +19,7 @@ Languages:
 - [simple calculator](./Python/simple%20calculator)
 
 ## Web Development
-<a name='Web Development'></a>
+<a name='Web%20Development'></a>
 - [registration form](./Web%20Development/registration%20form)
 
 ### endndt/registration%20form)
