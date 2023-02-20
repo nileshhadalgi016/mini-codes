@@ -3,11 +3,12 @@
 
 ### --------
 
-# Languages:
-- [Python](./Python)
-- [Web Development](./Web%20Development)
+Languages:
+- [Python](#Python)
+- [Web Development](#Web Development)
 
 ## Python
+<a name='Python'></a>
 - [alarm clock](./Python/alarm%20clock)
 - [factorial program](./Python/factorial%20program)
 - [image upscale or downscale](./Python/image%20upscale%20or%20downscale)
@@ -18,6 +19,7 @@
 - [simple calculator](./Python/simple%20calculator)
 
 ## Web Development
+<a name='Web Development'></a>
 - [registration form](./Web%20Development/registration%20form)
 
 ### endndt/registration%20form)
