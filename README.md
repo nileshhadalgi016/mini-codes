@@ -12,6 +12,7 @@ Languages:
 - [YouTube Audio Downloader](./Python/YouTube%20Audio%20Downloader)
 - [YouTube Video Downloader](./Python/YouTube%20Video%20Downloader)
 - [alarm clock](./Python/alarm%20clock)
+- [facedetection](./Python/facedetection)
 - [factorial program](./Python/factorial%20program)
 - [image upscale or downscale](./Python/image%20upscale%20or%20downscale)
 - [instagram profile downloader](./Python/instagram%20profile%20downloader)
