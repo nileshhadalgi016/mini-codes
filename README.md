@@ -19,6 +19,7 @@ Languages:
 - [instagram reel downloader ](./Python/instagram%20reel%20downloader%20)
 - [password generator](./Python/password%20generator)
 - [password generator With GUI](./Python/password%20generator%20With%20GUI)
+- [roll the dice](./Python/roll%20the%20dice)
 - [search engine](./Python/search%20engine)
 - [simple calculator](./Python/simple%20calculator)
 
